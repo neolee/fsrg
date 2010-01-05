@@ -1,0 +1,7 @@
+<module>
+  <inherits name='com.foresee.fsr.gallery.Gallery' />
+  <inherits name='com.foresee.fsr.gallery.resources.Resources' />
+  <inherits name='com.extjs.gxt.themes.Themes' />
+  <inherits name='com.extjs.gxt.ui.GXT'/>
+  <entry-point class='com.foresee.fsr.gallery.explorer.client.Explorer' />
+</module>

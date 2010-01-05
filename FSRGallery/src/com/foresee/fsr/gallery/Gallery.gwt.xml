@@ -1,0 +1,8 @@
+<module>
+  <inherits name='com.foresee.fsr.gallery.resources.Resources' />
+  <inherits name='com.extjs.gxt.themes.Themes' />
+  <inherits name='com.extjs.gxt.charts.Chart' />
+  <servlet path="/service" class="com.foresee.fsr.gallery.server.ExampleServiceImpl"/>
+  <servlet path="/fileservice" class="com.foresee.fsr.gallery.server.FileServiceImpl"/>
+  <entry-point class='com.foresee.fsr.gallery.client.Examples' />
+</module>
